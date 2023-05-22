@@ -1,5 +1,8 @@
 # LLMOPsNotes
 
+## Tips&Tricks
+- [Tips and tricks for working with Large Language Models like OpenAI's GPT-4](https://github.com/brexhq/prompt-engineering)
+
 ## Courses:
 ### 1. [Cohere has created an LLM University to learn about LLMs and NLP](https://lnkd.in/gc5uTgNM)
 
@@ -23,7 +26,8 @@ The lectures cover the following topics:
 - Launch an LLM App in One Hour
 - Project Walkthrough
 
-## Opensource Models with Open Commercial:
-* [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)
-* [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b)
+## Opensource Models:
+* [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm) - Free Commercial Use
+* [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) - Free Commercial Use
 * [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) - OpenRAIL(Open Responsible AI Model license)
+* [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
