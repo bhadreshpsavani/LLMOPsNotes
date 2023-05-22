@@ -1,6 +1,7 @@
 # LLMOPsNotes
 
-## Cohere has created an LLM University to learn about LLMs and NLP.
+## Courses:
+### 1. Cohere has created an LLM University to learn about LLMs and NLP.
 
 The course covers various aspects of LLMs including
 - How do LLMs work?
@@ -9,7 +10,7 @@ The course covers various aspects of LLMs including
 
 [Link](https://lnkd.in/gc5uTgNM)
 
-## The Full Stack LLM Bootcamp 
+### 2. The Full Stack LLM Bootcamp 
 
 a free course by The Full Stack team is now available for us to learn.
 
