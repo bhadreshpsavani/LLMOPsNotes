@@ -1,7 +1,7 @@
 # LLMOPsNotes
 
 ## Courses:
-### 1. [Cohere has created an LLM University to learn about LLMs and NLP]((https://lnkd.in/gc5uTgNM))
+### 1. [Cohere has created an LLM University to learn about LLMs and NLP](https://lnkd.in/gc5uTgNM)
 
 The course covers various aspects of LLMs including
 - How do LLMs work?
