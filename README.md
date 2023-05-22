@@ -26,3 +26,4 @@ The lectures cover the following topics:
 ## Opensource Models with Open Commercial:
 * [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)
 * [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b)
+* [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) - OpenRAIL(Open Responsible AI Model license)
