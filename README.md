@@ -26,6 +26,9 @@ The lectures cover the following topics:
 - Launch an LLM App in One Hour
 - Project Walkthrough
 
+### 3. [chatgpt-prompt-eng-with-deeplearning.ai](https://learn.deeplearning.ai/chatgpt-prompt-eng)
+Video tutorial with handson on prompt engineering
+
 ## Opensource Models:
 * [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm) - Free Commercial Use
 * [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) - Free Commercial Use
