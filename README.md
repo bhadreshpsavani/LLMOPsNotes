@@ -34,3 +34,4 @@ Video tutorial with handson on prompt engineering
 * [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) - Free Commercial Use
 * [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) - OpenRAIL(Open Responsible AI Model license)
 * [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
+* [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
