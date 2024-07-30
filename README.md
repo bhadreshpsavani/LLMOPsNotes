@@ -39,3 +39,7 @@ Video tutorial with handson on prompt engineering
 * [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) - OpenRAIL(Open Responsible AI Model license)
 * [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
 * [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
+
+## Blogs
+
+-[genai-platform](https://huyenchip.com/2024/07/25/genai-platform.html)
