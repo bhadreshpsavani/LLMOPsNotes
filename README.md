@@ -42,4 +42,7 @@ Video tutorial with handson on prompt engineering
 
 ## Blogs
 
--[genai-platform](https://huyenchip.com/2024/07/25/genai-platform.html)
+- [genai-platform](https://huyenchip.com/2024/07/25/genai-platform.html)
+
+## Links
+- [chat_model_rate_limiting](https://python.langchain.com/v0.2/docs/how_to/chat_model_rate_limiting/)
