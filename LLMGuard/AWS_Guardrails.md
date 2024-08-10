@@ -1,91 +1,91 @@
 # Using AWS Bedrock LLM GuardRails
 
-LLM GuardRails are important Component in LLMOps Lifecycle. 
+LLM GuardRails are an important Component in LLMOps Lifecycle. 
 
-It help our LLM system to Mitigate Unexpected and Harmful Input interms of prompt and instructions. It Also provide additional layer of security to avoid PII leakeage.
+It helps our LLM system to Mitigate Unexpected and Harmful Input in terms of prompts and instructions. It also provides an additional layer of security to avoid PII leakage.
 
-In terms of LLM Output, it restricts LLM output if model is halucinating or generating something out of expectation.
+In terms of LLM Output, it restricts LLM output if the model is hallucinating or generating something out of expectation.
 
 ## Step1. Create Guardrails in AWS bedrock Platform
 
-![create_guardrails](images\create_guardrails.png)
+![create_guardrails](/LLMGuard/images/create_guardrails.png)
 
 ## Step2. Provide initial details like name and description
 
-![step1_provide_details](images\step1_provide_details.png)
+![step1_provide_details](/LLMGuard/images/step1_provide_details.png)
 
 ## Step3. Configure content Filtering
-This is an important configuaration step to prevent harmful user input and also avoid `Prompt Attack`
+This is an important configuration step to prevent harmful user input and also avoid a `Prompt Attack`
 
-Prompt attack is something that enduser do interms of input to override Prompt instruction or making prompt instruction meaningless
+The prompt attack is something that the end user does in terms of input to override Prompt instruction or make prompt instruction meaningless
 
-![step2_configure_content_filter](images\step2_configure_content_filter.png)
+![step2_configure_content_filter](/LLMGuard/images/step2_configure_content_filter.png)
 
-We can select different categories with choice of level based on the need
+We can select different categories with a choice of level based on the need
 
-![step2_1_configure_content_filter](images\step2_1_configure_content_filter.png)
+![step2_1_configure_content_filter](/LLMGuard/images/step2_1_configure_content_filter.png)
 
 ## Step4. Add denied topics
 
-Sometimes we want the scope of model to be restricted in certain topics and we can configure such behaviour in this page
+Sometimes we want the scope of the model to be restricted to certain topics and we can configure such behaviour on this page
 
-![step3_add_denied_topics.png](images\step3_add_denied_topics.png)
+![step3_add_denied_topics.png](/LLMGuard/images/step3_add_denied_topics.png)
 
 ## Step5. Add Word Filters
 
-There might be some word interms of io of model that need to be filtered such behavior can be configured in this section
+There might be some word in terms of io of the model that needs to be filtered such behavior can be configured in this section
 
-![step4_add_word_filters](images\step4_add_word_filters.png)
+![step4_add_word_filters](/LLMGuard/images/step4_add_word_filters.png)
 
 ## Step6. Filter Sensitive Content Configuration
 
 We can either `mask` or `block` PII Information in LLM Guardrail
 
-We can also add custom Sensitive Information Regex with similar behaviour
+We can also add custom Sensitive Information Regex with similar behavior
 
-![filter_PII_information_or_sensitive_content1](images\step5_filter_PII_information_or_sensitive_content.png)
-![filter_PII_information_or_sensitive_content2](images\step5_2_filter_PII_information_or_sensitive_content.png)
+![filter_PII_information_or_sensitive_content1](/LLMGuard/images/step5_filter_PII_information_or_sensitive_content.png)
+![filter_PII_information_or_sensitive_content2](/LLMGuard/images/step5_2_filter_PII_information_or_sensitive_content.png)
 
-## Step7. Context Grounding and Relavancy
+## Step7. Context Grounding and Relevancy
 
-We can directly filter output based on how context is used in response generation its called `Context Grounding`. Also based on standard Relavancy score also we can restrict the output
+We can directly filter output based on how context is used in response generation it's called `Context Grounding`. Also based on the standard Relevancy score also we can restrict the output
 
-![Step6_context_grounding_relavancy](images\Step6_context_grounding_relavancy.png)
+![Step6_context_grounding_relavancy](/LLMGuard/images/Step6_context_grounding_relavancy.png)
 
 ## Step8. Create Guardrail and Version it
-By clicking on Create button it will create guardrail instance for you
-![step7_create](images\step7_create.png)
+By clicking on the Create button it will create a guardrail instance for you
+![step7_create](/LLMGuard/images/step7_create.png)
 
-We will also need to create version for using it via Bedrock python sdk
-![step8_create_guardrail_version](images\step8_create_guardrail_version.png)
+We will also need to create a version for using it via Bedrock python SDK
+![step8_create_guardrail_version](/LLMGuard/images/step8_create_guardrail_version.png)
 
-![step8_2_create_guardrail_version](images\step8_2_create_guardrail_version.png)
+![step8_2_create_guardrail_version](/LLMGuard/images/step8_2_create_guardrail_version.png)
 
 ## Step9. Test The Guardrails
 
-In the test section we will need to select one of the available model that we have access to
+In the test section, we will need to select one of the available models that we have access to
 
-![testing_select_model](images\testing_select_model.png)
+![testing_select_model](/LLMGuard/images/testing_select_model.png)
 
-We can provide prompt and reference document and run the inference
+We can provide prompt and reference documents and run the inference
 
-![testing_select_model_v2](images\testing_select_model_v2.png)
+![testing_select_model_v2](/LLMGuard/images/testing_select_model_v2.png)
 
-We will need to click on `View Trace` to get indepth analysis on what guardrails is doing in background like what things its blocking and why
-![testing_select_model_v3](images\testing_select_model_v3.png)
+We will need to click on `View Trace` to get an in-depth analysis of what guardrails are doing in the background like what things are blocking and why
+![testing_select_model_v3](/LLMGuard/images/testing_select_model_v3.png)
 
 ### Incorporate Guardrails while making LLM calls using langchain
 
-Once we do configure the guardrails, we can directly  use it while calling AWS Bedrock API in python sdk version as well.
+Once we do configure the guardrails, we can directly  use it while calling AWS Bedrock API in the Python SDK version as well.
 
-Its intigrated in the bedrock sdk objects. We just need to pass  
+It's integrated into the bedrock SDK objects. We need to pass  
 ```
 guardrails={
     "guardrailIdentifier": "#replace this with your guardrail id", 
     "guardrailVersion": "1", "trace": True
 }
 ```
-in the object creation as argument also we can add `BedrockAsyncCallbackHandler` for certain behaviour based on application
+in the object creation as an argument also we can add `BedrockAsyncCallbackHandler` for certain behaviors based on the application
 
 ```python
 from typing import Any
@@ -94,7 +94,7 @@ from langchain_core.callbacks import AsyncCallbackHandler
 from langchain_aws import ChatBedrock
 import boto3
 import os
-# Initialize boto3 client with bedrock-runtime to access bedrock related feature
+# Initialize boto3 client with bedrock-runtime to access bedrock-related feature
 bedrock_client = boto3.client(
     'bedrock-runtime',
     region_name="us-east-1",
@@ -124,9 +124,9 @@ llm = ChatBedrock(
 ```
 
 Note: 
-1. Similar Code is available in Langchain offcial document but i modified and provided working version
+1. A Similar Code is available in the Langchain official document but I modified and provided a working version
 
-2. I am still testing features of AWS Guardrails so i provided my initial understanding of each configuration of LLM Guard. 
+2. I am still testing features of AWS Guardrails so I provided my initial understanding of each configuration of LLM Guard. 
 
 
 Detailed implentation is provided in [AWS_Bedrock_Guardrails.ipynb](AWS_Bedrock_Guardrails.ipynb) notebook
