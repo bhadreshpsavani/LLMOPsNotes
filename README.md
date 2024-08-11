@@ -45,7 +45,7 @@ Video tutorial with handson on prompt engineering
 
 ### 2024:
 
-- [genai-platform](https://huyenchip.com/2024/07/25/genai-platform.html)
+- [Building A Generative AI Platform](https://huyenchip.com/2024/07/25/genai-platform.html)
 - [deploy-llm-using-terraform-sagemaker](https://www.philschmid.de/terraform-llm-sagemaker)
 - [evaluating-rag-as-llm-judge](https://www.philschmid.de/llm-evaluation)
 - [evaluate-llm](https://hamel.dev/blog/posts/evals/#eval-systems-unlock-superpowers-for-free)
