@@ -45,6 +45,7 @@ Video tutorial with handson on prompt engineering
 - [genai-platform](https://huyenchip.com/2024/07/25/genai-platform.html)
 - [deploy-llm-using-terraform-sagemaker](https://www.philschmid.de/terraform-llm-sagemaker)
 - [evaluating-rag-as-llm-judge](https://www.philschmid.de/llm-evaluation)
+[evaluate-llm](https://hamel.dev/blog/posts/evals/#eval-systems-unlock-superpowers-for-free)
 
 ## Links
 - [chat_model_rate_limiting](https://python.langchain.com/v0.2/docs/how_to/chat_model_rate_limiting/)
