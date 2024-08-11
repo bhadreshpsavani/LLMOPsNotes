@@ -35,17 +35,15 @@ Video tutorial with handson on prompt engineering
 
 ## Opensource Models:
 
-### 2024:
 * [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm) - Free Commercial Use
 * [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) - Free Commercial Use
 * [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) - OpenRAIL(Open Responsible AI Model license)
 * [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
 
-### 2023:
-* [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
-* [developing-advanced-reasoning-and-planning-algorithms-with-llms-2](https://www.normalcomputing.com/blog-posts/developing-advanced-reasoning-and-planning-algorithms-with-llms-2)
 
 ## Blogs
+
+### 2024:
 
 - [genai-platform](https://huyenchip.com/2024/07/25/genai-platform.html)
 - [deploy-llm-using-terraform-sagemaker](https://www.philschmid.de/terraform-llm-sagemaker)
@@ -53,6 +51,10 @@ Video tutorial with handson on prompt engineering
 - [evaluate-llm](https://hamel.dev/blog/posts/evals/#eval-systems-unlock-superpowers-for-free)
 -
 [minimal-quantize-intro](https://osanseviero.github.io/hackerllama/blog/posts/minimal-quantize-intro/)
+
+### 2023:
+* [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
+* [developing-advanced-reasoning-and-planning-algorithms-with-llms-2](https://www.normalcomputing.com/blog-posts/developing-advanced-reasoning-and-planning-algorithms-with-llms-2)
 
 ## Links
 - [chat_model_rate_limiting](https://python.langchain.com/v0.2/docs/how_to/chat_model_rate_limiting/)
