@@ -46,3 +46,5 @@ Video tutorial with handson on prompt engineering
 
 ## Links
 - [chat_model_rate_limiting](https://python.langchain.com/v0.2/docs/how_to/chat_model_rate_limiting/)
+
+- [train-llama](https://huggingface.co/blog/nroggendorff/train-with-llama-architecture)
