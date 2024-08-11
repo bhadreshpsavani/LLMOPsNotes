@@ -49,8 +49,8 @@ Video tutorial with handson on prompt engineering
 - [deploy-llm-using-terraform-sagemaker](https://www.philschmid.de/terraform-llm-sagemaker)
 - [evaluating-rag-as-llm-judge](https://www.philschmid.de/llm-evaluation)
 - [evaluate-llm](https://hamel.dev/blog/posts/evals/#eval-systems-unlock-superpowers-for-free)
--
-[minimal-quantize-intro](https://osanseviero.github.io/hackerllama/blog/posts/minimal-quantize-intro/)
+- [minimal-quantize-intro](https://osanseviero.github.io/hackerllama/blog/posts/minimal-quantize-intro/)
+
 
 ### 2023:
 * [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
