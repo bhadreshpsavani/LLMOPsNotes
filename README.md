@@ -13,8 +13,6 @@ The course covers various aspects of LLMs including
 
 ### 2. [The Full Stack LLM Bootcamp](https://lnkd.in/gg_vi4AR)
 
-### 3. [langchain-crash-course](https://github.com/bhancockio/langchain-crash-course)
-
 a free course by The Full Stack team is now available for us to learn.
 
 The course covers the best practices and tools for building applications powered by LLMs.
@@ -31,9 +29,10 @@ The lectures cover the following topics:
 ### 3. [chatgpt-prompt-eng-with-deeplearning.ai](https://learn.deeplearning.ai/chatgpt-prompt-eng)
 Video tutorial with handson on prompt engineering
 
-### 4. Huggingface Model Embedding Deployment on AWS
 
-* [custom-inference-huggingface-sagemaker](https://www.philschmid.de/custom-inference-huggingface-sagemaker)
+
+### 4. [langchain-crash-course](https://github.com/bhancockio/langchain-crash-course)
+
 
 ## Opensource Models:
 
@@ -51,6 +50,7 @@ Video tutorial with handson on prompt engineering
 - [deploy-llm-using-terraform-sagemaker](https://www.philschmid.de/terraform-llm-sagemaker)
 - [evaluating-rag-as-llm-judge](https://www.philschmid.de/llm-evaluation)
 - [evaluate-llm](https://hamel.dev/blog/posts/evals/#eval-systems-unlock-superpowers-for-free)
+-[custom-inference-huggingface-sagemaker](https://www.philschmid.de/custom-inference-huggingface-sagemaker))
 - [minimal-quantize-intro](https://osanseviero.github.io/hackerllama/blog/posts/minimal-quantize-intro/)
 - [neo4j-graphrag-ecosystem-tools](https://neo4j.com/developer-blog/graphrag-ecosystem-tools/)
 
