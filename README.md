@@ -13,6 +13,8 @@ The course covers various aspects of LLMs including
 
 ### 2. [The Full Stack LLM Bootcamp](https://lnkd.in/gg_vi4AR)
 
+### 3. [langchain-crash-course](https://github.com/bhancockio/langchain-crash-course)
+
 a free course by The Full Stack team is now available for us to learn.
 
 The course covers the best practices and tools for building applications powered by LLMs.
