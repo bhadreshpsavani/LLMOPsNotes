@@ -50,7 +50,7 @@ Video tutorial with handson on prompt engineering
 - [deploy-llm-using-terraform-sagemaker](https://www.philschmid.de/terraform-llm-sagemaker)
 - [evaluating-rag-as-llm-judge](https://www.philschmid.de/llm-evaluation)
 - [evaluate-llm](https://hamel.dev/blog/posts/evals/#eval-systems-unlock-superpowers-for-free)
--[custom-inference-huggingface-sagemaker](https://www.philschmid.de/custom-inference-huggingface-sagemaker))
+- [custom-inference-huggingface-sagemaker](https://www.philschmid.de/custom-inference-huggingface-sagemaker))
 - [minimal-quantize-intro](https://osanseviero.github.io/hackerllama/blog/posts/minimal-quantize-intro/)
 - [neo4j-graphrag-ecosystem-tools](https://neo4j.com/developer-blog/graphrag-ecosystem-tools/)
 
