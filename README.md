@@ -64,3 +64,4 @@ Video tutorial with handson on prompt engineering
 
 - [train-llama](https://huggingface.co/blog/nroggendorff/train-with-llama-architecture)
 - [AI-Agent-base-notebook](https://github.com/SudalaiRajkumar/Talks_Webinars/tree/master/Codes/DHS_2024)
+- [llama assistant](https://github.com/Vaibhavs10/llama-assistant)
