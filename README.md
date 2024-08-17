@@ -66,3 +66,4 @@ Video tutorial with handson on prompt engineering
 - [AI-Agent-base-notebook](https://github.com/SudalaiRajkumar/Talks_Webinars/tree/master/Codes/DHS_2024)
 - [llama assistant](https://github.com/Vaibhavs10/llama-assistant)
 - [advanced-rag-techniques](https://github.com/NirDiamant/RAG_Techniques)
+-[awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
