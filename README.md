@@ -67,3 +67,4 @@ Video tutorial with handson on prompt engineering
 - [llama assistant](https://github.com/Vaibhavs10/llama-assistant)
 - [advanced-rag-techniques](https://github.com/NirDiamant/RAG_Techniques)
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+- [llama31-storm8b](https://huggingface.co/blog/akjindal53244/llama31-storm8b)
