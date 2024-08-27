@@ -2,6 +2,10 @@
 
 ## Tips&Tricks
 - [Tips and tricks for working with Large Language Models like OpenAI's GPT-4](https://github.com/brexhq/prompt-engineering)
+### [LitServe](https://github.com/Lightning-AI/litserve)
+- [deploy-a-private-llama-3-1-rag-api](https://lightning.ai/lightning-ai/studios/deploy-a-private-llama-3-1-rag-api)
+  
+![litServe](resources/Images/litServe.jpg)
 
 ## Courses:
 ### 1. [Cohere has created an LLM University to learn about LLMs and NLP](https://lnkd.in/gc5uTgNM)
